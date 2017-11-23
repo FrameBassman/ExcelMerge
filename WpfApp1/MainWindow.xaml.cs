@@ -2,6 +2,8 @@
 
 namespace WpfApp1
 {
+    using System.IO;
+
     using Microsoft.Win32;
 
     /// <summary>
@@ -19,6 +21,9 @@ namespace WpfApp1
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
                 this.FirstFilePath.Text = openFileDialog.FileName;
+
+            FileInfo fi = new FileInfo(this.FirstFilePath.Text);
+            this.FirstFilePathResult.Text = Path.Combine(fi.DirectoryName, Path.GetFileNameWithoutExtension(fi.Name) + "-results.txt");
         }
 
         private void SelectSecondFile_Click(object sender, RoutedEventArgs e)
@@ -26,6 +31,9 @@ namespace WpfApp1
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
                 this.SecondFilePath.Text = openFileDialog.FileName;
+
+            FileInfo fi = new FileInfo(this.SecondFilePath.Text);
+            this.SecondFilePathResult.Text = Path.Combine(fi.DirectoryName, Path.GetFileNameWithoutExtension(fi.Name) + "-results.txt");
         }
 
         private void Execute_Click(object sender, RoutedEventArgs e)
