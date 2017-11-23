@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelMerge", "ExcelMerge\ExcelMerge.csproj", "{F570DB9F-9B94-431C-AA99-D520BA9DDCC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{A98331B3-C55D-4C62-B29D-C11FEDA67163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F570DB9F-9B94-431C-AA99-D520BA9DDCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F570DB9F-9B94-431C-AA99-D520BA9DDCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F570DB9F-9B94-431C-AA99-D520BA9DDCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F570DB9F-9B94-431C-AA99-D520BA9DDCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98331B3-C55D-4C62-B29D-C11FEDA67163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98331B3-C55D-4C62-B29D-C11FEDA67163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98331B3-C55D-4C62-B29D-C11FEDA67163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98331B3-C55D-4C62-B29D-C11FEDA67163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24E00AF1-1856-4F4F-B8D7-31A38CDE4A45}
+	EndGlobalSection
+EndGlobal
